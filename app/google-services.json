@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "937858795320",
+    "project_id": "oldpeoplehelpapp",
+    "storage_bucket": "oldpeoplehelpapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937858795320:android:456b96e88d95686e7623cd",
+        "android_client_info": {
+          "package_name": "com.example.oldpeoplehelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937858795320-1jj6c41j41l3ciaqancomls9ms6uam1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCJDneGefKT_xg7fStjALDs01O_5XGeLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937858795320-1jj6c41j41l3ciaqancomls9ms6uam1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

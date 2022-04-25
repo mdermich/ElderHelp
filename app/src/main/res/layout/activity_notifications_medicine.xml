@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/drawer_layout_medicine_notifs"
+tools:context=".NotificationsMedicineActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/main_toolbar" />
+
+    <EditText
+        android:id="@+id/medicineName"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_local_hospital_24"
+        android:drawablePadding="12dp"
+        android:fontFamily="monospace"
+        android:hint="Medicine Name"
+        android:paddingLeft="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <EditText
+        android:id="@+id/DoseQuantity"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_local_hospital_24"
+        android:drawablePadding="12dp"
+        android:fontFamily="monospace"
+        android:hint="Dose Quantity"
+        android:paddingLeft="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="310dp"
+        android:layout_height="360dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606" />
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_purple"
+        android:fontFamily="monospace"
+        android:text="CANCEL"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+
+    <Button
+        android:id="@+id/setBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/custom_button_purple"
+        android:fontFamily="monospace"
+        android:text="SET"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.303"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    >
+    <include layout="@layout/main_nav_drawer"/>
+</RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

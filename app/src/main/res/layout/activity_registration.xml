@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center_horizontal"
+tools:context=".RegistrationActivity">
+
+    <EditText
+        android:id="@+id/password_register"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <EditText
+        android:id="@+id/Fullname"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="512dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_fullname"
+        android:drawablePadding="12dp"
+        android:hint="Fullname"
+        android:paddingLeft="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:hint="Email"
+        android:inputType="textPassword"
+        android:paddingLeft="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <EditText
+        android:id="@+id/Sexe"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_gender"
+        android:drawablePadding="12dp"
+        android:hint="Sexe"
+        android:paddingLeft="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_house"
+        android:drawablePadding="12dp"
+        android:hint="Address"
+        android:paddingLeft="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_datebirth"
+        android:drawablePadding="12dp"
+        android:hint="Age"
+        android:paddingLeft="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719" />
+
+    <EditText
+        android:id="@+id/Date_of_Birth"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="548dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_datebirth"
+        android:drawablePadding="12dp"
+        android:hint="Date of Birth"
+        android:paddingLeft="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="160dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/custom_button_blue"
+        android:fontFamily="monospace"
+        android:text="Register"
+        android:textColor="#370617"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="592dp"
+        android:fontFamily="cursive"
+        android:text="Caring with a Heart"
+        android:textAlignment="center"
+        android:textColor="#0E1123"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

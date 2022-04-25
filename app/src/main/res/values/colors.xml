@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="gray_500">#686465</color>
+    <color name="white">#F7F3F3</color>
+    <color name="garnet">#370617</color>
+    <color name="darkBlue">#0E1123</color>
+    <color name="greenBlue">#83C5BE</color>
+    <color name="lightBlue">#EDF6F9</color>
+    <color name ="DarkBlue_Palette">#0E1123</color>
+    <color name ="Purple_Palette">#370617</color>
+    <color name ="BlueGreen_Palette">#006D77</color>
+    <color name ="SkyBlue_Palette">#EDF6F9</color>
+    <color name ="LightBlueGreen_Palette">#FF83C5BE</color>
+    <color name="red">#FF0000</color>
+</resources>
